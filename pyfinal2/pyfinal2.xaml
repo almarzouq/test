@@ -1,0 +1,25 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="442" Width="742" Loaded="Window_Loaded">
+    <Grid>
+        <ListBox Height="190" HorizontalAlignment="Left" Margin="28,55,0,0" Name="studentList" VerticalAlignment="Top" Width="255" SelectionChanged="studentList_SelectionChanged" />
+        <Label Content="Students:" Height="27" HorizontalAlignment="Left" Margin="45,22,0,0" Name="Label1" VerticalAlignment="Top" Width="218" />
+        <Label Height="45" HorizontalAlignment="Left" Margin="28,266,0,0" Name="errorLabel" VerticalAlignment="Top" Width="255" Foreground="#FFC13131" />
+        <Label Content="Name:" Height="27" HorizontalAlignment="Left" Margin="346,55,0,0" Name="Label2" VerticalAlignment="Top" Width="119" />
+        <Label Content="ID:" Height="27" HorizontalAlignment="Left" Margin="346,95,0,0" Name="Label3" VerticalAlignment="Top" Width="119" />
+        <Label Content="Abcense:" Height="27" HorizontalAlignment="Left" Margin="346,199,0,0" Name="Label4" VerticalAlignment="Top" Width="119" />
+        <Label Content="Grade Points:" Height="27" HorizontalAlignment="Left" Margin="346,243,0,0" Name="Label5" VerticalAlignment="Top" Width="119" />
+        <Label Content="Final Grade:" Height="27" HorizontalAlignment="Left" Margin="346,285,0,0" Name="Label6" VerticalAlignment="Top" Width="119" />
+        <Label Content="Letter Grade:" Height="27" HorizontalAlignment="Left" Margin="346,326,0,0" Name="Label7" VerticalAlignment="Top" Width="119" />
+        <Label Content="Year of Enrollment:" Height="27" HorizontalAlignment="Left" Margin="346,128,0,0" Name="Label8" VerticalAlignment="Top" Width="119" />
+        <Button Content="Update" Height="43" HorizontalAlignment="Left" Margin="88,326,0,0" Name="Button1" VerticalAlignment="Top" Width="148" Click="Button1_Click" />
+        <Label Height="27" HorizontalAlignment="Left" Margin="501,0,0,248" Name="yearLabel" VerticalAlignment="Bottom" Width="172" />
+        <Label Height="27" HorizontalAlignment="Left" Margin="501,285,0,0" Name="finalGradeLabel" VerticalAlignment="Top" Width="172" />
+        <Label Height="27" HorizontalAlignment="Left" Margin="501,326,0,0" Name="letterGradeLabel" VerticalAlignment="Top" Width="172" />
+        <TextBox Height="27" HorizontalAlignment="Left" Margin="501,55,0,0" Name="nameBox" VerticalAlignment="Top" Width="172" />
+        <TextBox Height="27" HorizontalAlignment="Left" Margin="501,95,0,0" Name="idBox" VerticalAlignment="Top" Width="172" />
+        <TextBox Height="27" HorizontalAlignment="Left" Margin="501,0,0,175" Name="absBox" VerticalAlignment="Bottom" Width="175" />
+        <TextBox Height="27" HorizontalAlignment="Left" Margin="501,245,0,0" Name="gradeBox" VerticalAlignment="Top" Width="175" />
+    </Grid>
+</Window>
